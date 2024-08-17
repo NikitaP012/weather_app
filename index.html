@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <h2 id="heading">Check Weather of your city</h2>
+        <br><br><br>
+        <div class="container">
+            <div class="city">
+                Enter city name:  <input tyep="text" id="name"> &nbsp; &nbsp; &nbsp; &nbsp; <button type="submit" onclick="weatherApp()">Check
+                    weather</button>
+            </div>
+
+            <div class="temp">
+                <h2 id="temp"><span>temperature</span><br><span style="color: rgb(15, 43, 134);" id="te"></span></h2> 
+                 <h2 id="main"><span>Status</span><br><span style="color: rgb(15, 43, 134);" id="st"></span></h2>
+            </div>
+
+            <div class="images">
+                <img  id="img1">
+                <br><br>
+                <h2 id="city_name" style="color: rgb(15, 43, 134);"></h2>
+            </div>
+            
+            <div class="temp">
+                <h2 id="wind"><span>Wind Speed</span><br><span style="color: rgb(15, 43, 134);" id="ws"></span></h2> 
+                 <h2 id="humidity"><span>Humidity</span><br><span style="color: rgb(15, 43, 134);" id="hm"></span></h2>
+            </div>
+           
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
